@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <body>
+    <body onload="redirect();">
         <script>
-            window.location.replace("http://127.0.0.1:5173/");
+            function redirect() {
+                window.location.replace("http://127.0.0.1:5173/");
+            }
         </script>
     </body>
 </head>
